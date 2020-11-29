@@ -116,7 +116,7 @@
   <aside class="aside-posts">
     <h3 class="trend-section-name">Сейчас в тренде</h3>
     <div class="trend-posts">
-      <div class="trend-post1">
+      <div class="trend-post trend-post1">
         <div class="trend-post-content">
           <div class="trend-border">
             <header class="trend-post-header">
@@ -139,7 +139,7 @@
         </div>
       </div>
 
-      <div class="trend-post2">
+      <div class="trend-post trend-post2">
 
         <div class="trend-post-content">
 
@@ -161,7 +161,7 @@
         </div>
       </div>
 
-      <div class="trend-post3">
+      <div class="trend-post trend-post3">
 
         <div class="trend-post-content">
           <div class="trend-border">
@@ -183,7 +183,7 @@
         </div>
       </div>
 
-      <div class="trend-post4">
+      <div class="trend-post trend-post4">
 
         <div class="trend-post-content">
           <div class="trend-border">
@@ -389,7 +389,7 @@
 
         <div class="post">
           <div class="post-preview">
-            <img class="article-img" src="images/2.jpg" alt="скалы и силуэт человека идущего по побережью">
+            <img class="article-img-post" src="images/2.jpg" alt="скалы и силуэт человека идущего по побережью">
           </div>
           <div class="post-info">
 
@@ -401,7 +401,7 @@
         </div>
         <div class="post">
           <div class="post-preview">
-            <img class="article-img" src="images/151.jpg" alt="девушка делает стойку на голове">
+            <img class="article-img-post" src="images/151.jpg" alt="девушка делает стойку на голове">
           </div>
           <div class="post-info">
 
@@ -413,7 +413,7 @@
         </div>
         <div class="post">
           <div class="post-preview">
-            <img class="article-img" src="images/45.jpg" alt="стул на балконе">
+            <img class="article-img-post" src="images/45.jpg" alt="стул на балконе">
           </div>
           <div class="post-info">
 
@@ -426,7 +426,7 @@
         </div>
         <div class="post">
           <div class="post-preview">
-            <img class="article-img" src="images/501.jpg" alt="На столе стоит тарелка с горячим">
+            <img class="article-img-post" src="images/501.jpg" alt="На столе стоит тарелка с горячим">
           </div>
           <div class="post-info">
 
@@ -438,7 +438,7 @@
         </div>
         <div class="post">
           <div class="post-preview">
-            <img class="article-img" src="images/7.jpg" alt="три девушки с длинными волосами стоят спиной">
+            <img class="article-img-post" src="images/7.jpg" alt="три девушки с длинными волосами стоят спиной">
           </div>
           <div class="post-info">
 
@@ -451,8 +451,10 @@
       </div>
 
       <form class="search">
-        <span class="field-search-hidden">Введите ключевые слова для поиска</span>
-        <input type="search" class="field" name="query" placeholder="Найти..." required>
+        <label class="search-label">
+          <span class="field-search-hidden">Введите ключевые слова для поиска</span>
+          <input type="search" class="field" name="query" placeholder="Найти..." required>
+        </label>
         <button class="button-search" type="submit"><span class="field-search-hidden">Кнопка поиска</span></button>
       </form>
 
@@ -462,8 +464,10 @@
         </div>
 
         <form class="subscribe-form">
-          <span class="field-email-hidden">Введите ваш email</span>
-          <input type="email" class="field-email" placeholder="Ваш email-адрес" required>
+          <label class="email-label">
+            <span class="field-email-hidden">Введите ваш email</span>
+            <input type="email" class="field-email" placeholder="Ваш email-адрес" required>
+          </label>
           <button class="button-subscribe" type="submit">Подписаться</button>
         </form>
       </div>
@@ -523,8 +527,7 @@
     <h3 class="trend-section-name">Наши изделия</h3>
     <div class="shop-posts">
       <div class="shop-post-card">
-        <div class="shop-post">
-          <div class="shop-post-preview">
+        <div class="shop-post-preview">
 
             <picture class="course__preview">
               <source media="(min-width: 1201px)" srcset="images/shop-item-desk1.jpg">
@@ -556,14 +559,11 @@
                 <button class="product-button" type="button">В магазин</button>
               </div>
 
-
             </div>
           </div>
-        </div>
-      </div>
+       </div>
       <div class="shop-post-card">
-        <div class="shop-post">
-          <div class="shop-post-preview">
+        <div class="shop-post-preview">
 
             <picture class="course__preview">
               <source media="(min-width: 1201px)" srcset="images/shop-item-desk2.jpg">
@@ -596,17 +596,13 @@
                 <button class="product-button" type="button">В магазин</button>
               </div>
 
-
-
             </div>
 
           </div>
-        </div>
-      </div>
+       </div>
 
       <div class="shop-post-card">
-        <div class="shop-post">
-          <div class="shop-post-preview">
+        <div class="shop-post-preview">
 
             <picture class="course__preview">
               <source media="(min-width: 1201px)" srcset="images/shop-item-desk3.jpg">
@@ -642,7 +638,6 @@
 
           </div>
         </div>
-      </div>
     </div>
 
 
