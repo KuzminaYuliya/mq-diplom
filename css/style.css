@@ -446,7 +446,7 @@ body {
 .trend-post  {
   position: relative;
   width: calc(25% - 2.5px);
-  height: 320px;
+  min-height: 320px;
   display: flex;
   padding-left: 20px;
   padding-right: 20px;
@@ -1238,7 +1238,7 @@ p {
   }
 
   .trend-post {
-    height: 250px;
+    min-height: 250px;
   }
 
   .trend-post-name-link {
@@ -1524,7 +1524,7 @@ p {
 
   .trend-post {
     width: 100%;
-    height: 230px;
+    min-height: 230px;
     margin-top: 5px;
   }
 
